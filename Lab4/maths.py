@@ -1,0 +1,14 @@
+import math
+#1
+print("Output radian:",float(math.pi/180*float(input("Input degree: "))))
+
+#2
+print("Expected output:",float(input("Height: "))*((float(input("Base, first value: "))+float(input("Base, second value: ")))/2))
+
+#3
+n=int(input("Input number of sides: "))
+l=float(input("Input the length of a side: "))
+print("The area of the polygon is:",int(n*l*l/4/math.tan(math.pi/n)))
+
+#4
+print("Expected Output:",float(input("Length of base: "))*float(input("Height of parallelogram: ")))
